@@ -38,6 +38,10 @@
  * searchingInfo : 변수 저장 메소드
  * SearchingResultActivity : 조회 결과 
 
+# UML
+
+<img src = "https://user-images.githubusercontent.com/48000920/129026874-0c6a05b4-dd26-4193-a279-303d48406bec.png" width="50%" height="50%">
+
 # 레이아웃 구조
  * activity_co2 : co2 xml
  * activity_electronics : 가전기기 xml
