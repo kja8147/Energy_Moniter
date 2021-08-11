@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_continents">
+        <item>Europe</item>
+        <item>CIS</item>
+        <item>America</item>
+        <item>Asia</item>
+        <item>Pacific</item>
+        <item>Africa</item>
+        <item>Middle-East</item>
+    </string-array>
+
+    <string-array name="spinner_Europe">
+        <item>Belgium</item>
+        <item>Czechia</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Netherlands</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>United Kingdom</item>
+        <item>Norway</item>
+        <item>Turkey</item>
+    </string-array>
+
+    <string-array name="spinner_CIS">
+        <item>Kazakhstan</item>
+        <item>Russia</item>
+        <item>Ukraine</item>
+        <item>Uzbekistan</item>
+    </string-array>
+
+    <string-array name="spinner_America">
+        <item>Canada</item>
+        <item>United States</item>
+        <item>Argentina</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Mexico</item>
+        <item>Venezuela</item>
+    </string-array>
+
+    <string-array name="spinner_Asia">
+        <item>China</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>Malaysia</item>
+        <item>South Korea</item>
+        <item>Taiwan</item>
+        <item>Thailand</item>
+    </string-array>
+
+    <string-array name="spinner_Pacific">
+        <item>Austrailia</item>
+        <item>New Zealand</item>
+    </string-array>
+
+    <string-array name="spinner_Africa">
+        <item>Algeria</item>
+        <item>Egypt</item>
+        <item>Nigeria</item>
+        <item>South Africa</item>
+    </string-array>
+
+    <string-array name="spinner_MiddleEast">
+        <item>Iran</item>
+        <item>Kuwait</item>
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+    </string-array>
+
+
+    <string-array name="spinner_metro">
+        <item>서울특별시</item>
+        <item>부산광역시</item>
+        <item>대구광역시</item>
+        <item>인천광역시</item>
+        <item>광주광역시</item>
+        <item>대전광역시</item>
+        <item>울산광역시</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>제주특별자치도</item>
+        <item>세종특별자치시</item>
+    </string-array>
+
+    <string-array name="spinner_month">
+        <item>01월</item>
+        <item>02월</item>
+        <item>03월</item>
+        <item>04월</item>
+        <item>05월</item>
+        <item>06월</item>
+        <item>07월</item>
+        <item>08월</item>
+        <item>09월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string-array name="spinner_year">
+        <item>2020년</item>
+        <item>2019년</item>
+        <item>2018년</item>
+        <item>2017년</item>
+        <item>2016년</item>
+        <item>2015년</item>
+        <item>2014년</item>
+    </string-array>
+
+</resources>

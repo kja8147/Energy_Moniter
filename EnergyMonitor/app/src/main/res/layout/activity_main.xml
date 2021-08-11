@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.energymonitor.MainActivity">
+
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:layout_margin="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow android:weightSum="3">
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:paddingLeft="14dp"
+                android:text="Energy"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_marginTop="20sp"
+                android:paddingRight="15dp"
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                android:text="Monitor"
+                android:textSize="22sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_marginTop="20sp"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1.4"
+                app:srcCompat="@drawable/energy" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1" />
+
+        <TableRow
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imgBtn_global"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/global"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imgBtn_co2"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/co2"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/imgBtn_electronics"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/electronics"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <ImageButton
+                android:id="@+id/imgBtn_searching"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/searching"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
