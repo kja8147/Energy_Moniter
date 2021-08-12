@@ -1,4 +1,4 @@
-# Energy_Moniter
+# Energy_Monitor
 사이드 프로젝트
  
 # 개요
