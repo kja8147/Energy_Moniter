@@ -30,7 +30,7 @@
 
 # 스크립트 구조
  * co2Activity : co2 정보  (우측상단 버튼)
- * CustomMarkerView : 마커뷰
+ * CustomMarkerView : 차트 마커뷰
  * ElectronicsActivity : 가전기기 정보  (좌측하단 버튼)
  * GlobalActivity : 전력 정보 (좌측상단 버튼)
  * MainActivity : 메인
